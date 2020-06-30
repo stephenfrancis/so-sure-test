@@ -1,7 +1,7 @@
 # Node Vagrant Server
 Base node.js app repository
 
-##Setup
+## Setup
 
 Clone the repository
 ```
