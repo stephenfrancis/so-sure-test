@@ -13,3 +13,27 @@ node app.js
 ```
 
 The server should then be accessible from localhost:1338 on the host machine
+
+If you want to use a database:
+Mysql and Mongo are both installed on the vagrant machine
+To access the from a db manager, use a SSH tunnel:
+```
+localhost:2222
+user: vagrant
+pwd:  vagrant
+```
+Then use the usual basic connections ( Feel free to create your own users etc...):
+
+Mongo:
+```
+127.0.0.1:27017
+user: root
+pwd:  root
+```
+
+Mysql:
+```
+127.0.0.1:3306
+user: root
+pwd:  root
+```
