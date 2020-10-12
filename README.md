@@ -12,7 +12,7 @@ cd /vagrant
 node app.js
 ```
 
-The server should then be accessible from localhost:1338 on them host machine
+The server should then be accessible from localhost:1337 on them host machine
 
 If you want to use a database:
 Mysql and Mongo are both installed on the vagrant machine
