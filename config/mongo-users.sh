@@ -1,5 +1,6 @@
 # add users
 mongo admin <<EOF
+    use so-sure-node;
     db.createUser(
       {
         user: "root",
