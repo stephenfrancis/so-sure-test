@@ -1,6 +1,12 @@
 {
+  "scripts": {
+    "up": "docker compose -f docker-compose.yml up -d --build",
+    "down": "docker compose -f docker-compose.yml down",
+    "setup": "node setup.js"
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3"
   }
 }
