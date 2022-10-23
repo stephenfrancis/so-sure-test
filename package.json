@@ -1,8 +1,7 @@
 {
   "scripts": {
     "up": "docker compose -f docker-compose.yml up -d --build",
-    "down": "docker compose -f docker-compose.yml down",
-    "setup": "node setup.js"
+    "down": "docker compose -f docker-compose.yml down"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
